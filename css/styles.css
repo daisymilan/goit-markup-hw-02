@@ -1,0 +1,105 @@
+:root {
+    --IRIS: #4D5AE5;
+    --NAVY-BLUE: #2E2F42;
+    --CLOUD: #F4F4FD;
+    --WHITE: #FFFFFF;
+    --SLATE: #434455;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--SLATE);
+   
+}
+
+
+.logo {
+    text-decoration: none;
+    color: var(--NAVY-BLUE);
+    font-size: 18px;
+    font-family: Raleway;
+}
+
+.logo span{
+    color: var(--IRIS);
+}
+
+
+ul {
+    text-align: left;
+    padding: 0;
+    margin-left: 0;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+
+
+.section-1 {
+    background-color: var(--NAVY-BLUE);
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+    color: var(--WHITE);
+    font-family: Roboto;
+
+}
+
+button {
+    background-color: var(--IRIS);
+    color: var(--WHITE);
+}
+
+.term {
+    color: var(--NAVY-BLUE);
+    font-size: 20px;
+    
+
+}
+
+
+
+.description {
+    color: var(--SLATE);
+    font-size: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+.section-3 h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.team h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 20px;
+    color: var(--NAVY-BLUE);
+}
+
+p {
+    font-size: 16px;
+}
+
+footer {
+    background-color: var(--NAVY-BLUE);
+    color: var(--CLOUD)
+    font-size: 16px;
+}
+footer .logo {
+    color: var(--CLOUD);
+   
+}
