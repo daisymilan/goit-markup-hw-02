@@ -19,6 +19,7 @@ body {
     color: var(--NAVY-BLUE);
     font-size: 18px;
     font-family: Raleway;
+    line-height: 1.16667;
 }
 
 .logo span{
@@ -35,6 +36,7 @@ ul {
 li a{
     text-decoration: none;
     font-size: 16px;
+    line-height: 1.5;
 }
 
 
@@ -49,19 +51,22 @@ h1 {
     text-align: center;
     color: var(--WHITE);
     font-family: Roboto;
+    line-height: 1.07143;
 
 }
 
 button {
     background-color: var(--IRIS);
     color: var(--WHITE);
+    font-size: 16px;
+    line-height: 1.5;
+
 }
 
 .term {
     color: var(--NAVY-BLUE);
     font-size: 20px;
-    
-
+    line-height: 1.2;
 }
 
 
@@ -69,6 +74,7 @@ button {
 .description {
     color: var(--SLATE);
     font-size: 16px;
+    line-height: 1.6;
 }
 
 li {
@@ -78,28 +84,37 @@ li {
 .section-3 h2 {
     text-align: center;
     font-size: 36px;
+    line-height: 1.11111;
 }
 
 .team h2 {
     text-align: center;
     font-size: 36px;
+    line-height: 1.11111;
 }
 
 h3 {
     font-size: 20px;
     color: var(--NAVY-BLUE);
+    line-height: 1.2;
 }
 
 p {
     font-size: 16px;
+    line-height: 1.5;
 }
 
 footer {
     background-color: var(--NAVY-BLUE);
     color: var(--CLOUD)
     font-size: 16px;
+    line-height: 1.5;
 }
 footer .logo {
     color: var(--CLOUD);
+    font-family: Raleway;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.16667;
    
 }
