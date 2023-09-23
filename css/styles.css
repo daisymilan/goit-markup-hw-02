@@ -13,7 +13,7 @@ body {
    
 }
 
-.pointer {
+.cursor {
     cursor: pointer;
 }
 
@@ -30,6 +30,14 @@ body {
 .logo span{
     color: var(--IRIS);
 }
+
+.logo:hover {
+    font-size: 20px;
+}
+.logo span:hover {
+    font-size: 20px;
+}
+
     /*MENU LINKS */
 li a {
     text-decoration: none;
@@ -50,6 +58,10 @@ ul {
     letter-spacing: 0.32px;
     color: var(--NAVY-BLUE);
 }
+.menu-links li a:hover {
+    text-shadow: var(--SLATE);
+    color: var(--IRIS);
+}
 
     /* CONTACTS */
 .contacts li a{
@@ -61,6 +73,12 @@ ul {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
+}
+
+.contacts li a:hover {
+    text-shadow: var(--SLATE);
+    color: var(--IRIS);
+    
 }
 
     /* SECTION 1 */
@@ -81,7 +99,9 @@ h1 {
 }
 
 button {
-    background-color: var(--IRIS);
+    border-radius: 4px;
+    background: var(--IRIS);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         /* BUTTON TEXT */
     color: var(--WHITE);
     font-size: 16px;
@@ -89,6 +109,11 @@ button {
     letter-spacing: 0.64px;
     font-weight: 500;
     font-style: normal;
+}
+
+button:hover {
+    text-shadow: var(--SLATE);
+    color: var(--NAVY-BLUE);
 }
 
      /* SECTION 1- FEATURES */
