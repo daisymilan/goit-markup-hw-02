@@ -31,10 +31,10 @@ body {
     color: var(--IRIS);
 }
 
-.logo:hover {
+.logo:hover, .logo:focus {
     font-size: 20px;
 }
-.logo span:hover {
+.logo span:hover, .logo span:focus {
     font-size: 20px;
 }
 
@@ -58,7 +58,7 @@ ul {
     letter-spacing: 0.32px;
     color: var(--NAVY-BLUE);
 }
-.menu-links li a:hover {
+.menu-links li a:hover, .menu-links li a:focus {
     text-shadow: var(--SLATE);
     color: var(--IRIS);
 }
@@ -75,7 +75,7 @@ ul {
     letter-spacing: 0.32px;
 }
 
-.contacts li a:hover {
+.contacts li a:hover, .contacts li a:focus {
     text-shadow: var(--SLATE);
     color: var(--IRIS);
     
